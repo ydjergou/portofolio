@@ -1,0 +1,235 @@
+header {
+    position: sticky;
+    background-color: lightpink;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: mintcream;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+* {
+    margin: 0 auto; 
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 0.90rem;
+}
+
+button:hover {
+    color: blue;
+}
+
+.ama {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
+}
+
+img {
+    border-radius: 800px;
+}
+
+#info {
+    background-color: lightpink;
+    color: black;
+}
+
+#info:hover {
+    color: blue;
+}
+
+.projet {
+    background-color: black;
+    color: white;
+}
+
+.text,
+Photo {
+    border: 10px;
+    flex: 1;
+    margin-right: 30px;
+    font-size: 1.3rem;
+    align-items: center;
+
+}
+
+.nom {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.propos {
+    font-size: 1rem;
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: mistyrose;
+}
+
+.stats {
+    display: flex;
+    padding: 30px;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+span {
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.P1 {
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.services {
+    font-size: 1rem;
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+h5 {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.S1 {
+    font-size: 1.5rem;
+    padding: 40px;
+
+}
+
+.come {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+}
+
+#i{
+    font-size: 7rem;
+    gap: 100px;
+    width: 200px;
+    height: 80px;
+    padding: 60px;
+    color: darkorchid;
+    transform: scale(1)
+}
+
+#i:hover {
+    color: blue;
+}
+
+.réalisation {
+    font-size: 1rem;
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+h6 {
+    font-size: 2rem;
+    padding: 20px;
+}
+.Contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    gap: 30px;
+    background-color: mistyrose;
+}
+.yala{
+   width: 50%; 
+}
+.bobo{
+    font-size: 2rem;
+    padding: 30px;
+}
+i{
+    padding: 20px;
+}
+.colo{
+    padding: 15px;
+}
+input,textarea{ 
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+.papa{
+    height: 150px;
+}
+#Ali{ 
+  color: white; 
+  background-color: black;
+  width: 25%;
+  padding: 10px;
+}
+.fin{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#boli{
+   text-align: center;
+    justify-content: center;
+    padding: 20px; 
+}
