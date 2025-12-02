@@ -7,10 +7,6 @@ header {
     align-items: center;
     padding: 20px;
 }
-html{
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: mintcream;
 }
@@ -42,6 +38,13 @@ nav {
     display: flex;
     gap: 50px;
     align-items: center;
+}
+@media screen and (max-width: 600px) {
+    nav {
+        justify-content: center;
+    }
+
+
 }
 
 button {
